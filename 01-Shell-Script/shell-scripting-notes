@@ -1,0 +1,78 @@
+find bash
+> which bash
+--------------------------------
+#!/bin/bash
+- represents which kind of shell we going to execute 
+for nextlines/we saying to system script is going excute by using bash shell interpretor
+----------------------------------
+to excute scriptfile
+sh <filename>
+./ <filename>
+-----------------------------------
+stop execution for some time
+> sleep 4 
+(for 4 seconds)
+-------------------------------------
+instead of commands in multiple lines we can use 
+semi colon
+date; whoami; sleep 4
+--------------------------------------
+we can print values in two ways 
+
+for single line
+>> echo "shell scripting"
+
+for mutliple lines
+car <<EOF 
+[setting]
+username=user
+password=pass
+EOF
+---------------------------------------
+by default variable contains empty
+a
+echo $a
+>> 
+by using unset we can remove value of variable
+a=5
+unset a
+echo $a
+>> 
+----------------------------------------
+type of variables
+- user defined
+- system defind : System-defined variables are predefined variables provided by the operating system or the shell. 
+They often have specific purposes and are used to manage the system's behavior or provide information about the system's state.
+
+Scope: Typically available only within the shell session where they are defined.
+>> echo $USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
