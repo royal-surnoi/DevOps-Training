@@ -179,3 +179,34 @@ drwxr-xr-x
 ```
 
 These examples show how versatile the `cut` command can be for extracting specific portions of text from input.
+
+###  archiving and compressing files
+Compressing files with gzip
+
+gzip is program used to compress files in Linux, they end in a .gz extension.
+
+To compress a file down:
+
+``` gzip mycoolfile```
+To decompress the file:
+
+```gunzip mycoolfile.gz```
+
+Creating archives with tar
+Unfortunately, gzip can't add multiple files into one archive for us. Luckily we have the tar program which does. When you create an archive using tar, it will have a .tar extension.
+
+
+``` tar cvf mytarfile.tar mycoolfile1 mycoolfile2 ```
+- c - create
+- v - tell the program to be verbose and let us see what it's doing
+- f - the filename of the tar file has to come after this option, if you are creating a tar file you'll have to come up with a name
+
+***Unpacking archives with tar***
+
+To extract the contents of a tar file, use:
+
+```tar xvf mytarfile.tar```
+
+- x - extract
+- v - tell the program to be verbose and let us see what it's doing
+- f - the file you want to extract
