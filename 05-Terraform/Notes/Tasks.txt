@@ -1,0 +1,9 @@
+Task
+--------------------------------------
+- Install 
+	- terraform
+	- aws cli
+- ec2-provision 
+- variable
+	- ec2 
+	- security group
