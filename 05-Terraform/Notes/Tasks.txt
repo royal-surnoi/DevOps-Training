@@ -7,3 +7,4 @@ Task
 - variable
 	- ec2 
 	- security group
+- .gitignore file
