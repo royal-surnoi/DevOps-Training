@@ -1,0 +1,47 @@
+### Basic Commands
+pwd 
+
+mkdir <repo_name>
+
+cd
+
+ls -l
+
+touch <file_name>
+
+echo "Hello World!" > sample.txt
+
+cat <file_name>
+
+rm sample.txt
+
+rmdir demo/
+
+rm -rf test/
+
+rm --help / man rm
+
+cp 
+
+mv - rename and move from one location another location 
+
+wc - word count
+
+history
+
+head and less 
+
+### Vi Editor 
+vi <file_name> :- create new file or enter already existing file
+i - insert
+:wq! save and exit
+:q! without save and quit
+
+
+
+### User management 
+
+### group management
+
+### Permissions
+
