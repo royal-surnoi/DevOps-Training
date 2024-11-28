@@ -171,11 +171,22 @@ Here’s a simple explanation of the **`vi`** editor commands and similar ones:
 
 
 
-
-
 ### User management 
 
+sudo adduser <username>
+sudo passwd 
+sudo deluser <username>
+sudo deluser --remove-home <username>
+cat /etc/passwd
+id 
+whoami 
+
 ### group management
+sudo groupadd developers
+groups <username>
+sudo usermod -aG groupname username
+sudo gpasswd --delete <username> <group>
+sudo gpasswd --d <username> <group>
 
 ### Permissions
 
